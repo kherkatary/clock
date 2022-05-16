@@ -19,8 +19,11 @@ body {
 }
 
 hr {
-	border: none;  /*to remove the border form other sides*/
-	border-top: 5px solid rgb(0, 0, 0);  /*to give the Hr some weight*/	position: relative;
+	/*to remove the border form other sides*/
+	border: none;  
+	/*to give the Hr some weight*/
+	border-top: 5px solid rgb(0, 0, 0);  	
+	position: relative;
 	top: 45%;
 
 }
