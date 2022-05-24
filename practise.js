@@ -44,6 +44,9 @@ function sClock() {
     sec = sec < 10 ? `0${sec}` : sec;
 
     document.getElementById("second").innerText = sec;
+
+    let clockSound= new Audio("clock-sound.wav");
+    //clockSound.play();
 }
 
 
