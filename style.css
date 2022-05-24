@@ -18,15 +18,6 @@ body {
 
 }
 
-hr {
-	/*to remove the border form other sides*/
-	border: none;  
-	/*to give the Hr some weight*/
-	border-top: 5px solid rgb(0, 0, 0);  	
-	position: relative;
-	top: 45%;
-
-}
 
 #period{
 	color: white;
@@ -36,6 +27,17 @@ hr {
     top: 63%;
     left: 11.5%;
 }
+
+
+#second{
+	color: white;
+    font-family: 'Koulen', cursive;
+    font-size: 2.5rem;
+    position: absolute;
+	right:  11.5%;
+	top: 62.5%;
+}
+
 
 #hour,
 #minute {
